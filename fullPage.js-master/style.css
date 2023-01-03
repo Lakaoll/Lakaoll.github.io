@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: url('img/Diablo-Diablo-Immortal-Diablo-2-Diablo-3-Reaper-of-Souls-diablo-4-diablo-iv-1970887-wallhere.com.jpg');
+    align-items: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+.section {
+    width: 100%;
+    height: 100%;
+
+    
+    
+
+
+}
+
+
+.nav-sticky{
+    position: fixed;
+    transition: all 0.5s;
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    padding: 15px 30px 15px 30px;
+    
+    
+
+}
+
+.aaa-1{
+    padding: 136px 300px 100px 300px;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+
+
+
+    
+    
+}
+
+
+
+.aa{
+
+
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    transition: all 0.7s;
+    overflow: hidden;
+    box-sizing: border-box;
+
+
+}
+
+.img-hover{
+    border-radius: 4px;
+    width: 100%;
+    transition: all 0.7s;
+
+    
+}
+
+.aa:hover{
+
+    background-image: url('img/maxresdefault\ \(1\).jpg');
+    background-repeat : no-repeat;
+    background-size: contain;
+    border-radius: 4px;
+    transition: all 0.7s;
+    
+}
+
+.aa:hover .img-hover{
+    opacity: 0;
+    transition: all 0.7s;
+
+    
+}
+
+
+
+.aa-1{
+    position: absolute;
+    left: 0%;
+    bottom: 6.5%;
+    width: 40%;
+    height: 30%;
+    
+    
+
+}
+
+
+.aaa2{
+
+    padding: 136px 300px 100px 300px;
+    background-image: url('img/우사2.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.bb{
+    
+    
+    width: 100%;
+    height: 100%;
+   
+    border-radius: 4px;
+    
+    
+}
+
+
+.bb1{
+    display: flex;
+    position: absolute;
+    top: 120%;
+    right: 15%;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all 3s;
+}
+
+.imgtexthover{
+    transition: all 0.7s;
+
+}
+
+
+
+
+.imgbb{
+    position: absolute;
+    left: 48%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 0;
+    transition: all 0.7s;
+    overflow: hidden;
+
+    
+}
+
+
+
+.textbb{
+    position: absolute;
+    left: 160%;
+    top: 16%;
+    display: block;
+    color: white;
+    opacity: 0;
+    transition: all 1s;
+    width: 100%;
+
+
+
+}
+
+
+.hovericon{
+    position: absolute;
+    left: 63%;
+    top: 10%;
+    cursor: pointer;
+    z-index: 100;
+    transition: all 0.7s;
+
+}
+
+
+
+
+.imgtexthover:hover .imgbb{
+
+   opacity: 1;
+    transition: all 0.7s;
+
+
+
+}
+
+.imgtexthover:hover .textbb{
+    
+    opacity: 1;
+    transition: all 1s;
+    left: 75%;
+}
+
+.imgtexthover:hover .aaa{
+    opacity: 0.5;
+}
+
+
+.bb2{
+
+    opacity: 1;
+    transition: all 3s;
+    transform: none;
+
+}
+
+
+
+.aaa-3{
+    padding: 136px 300px 100px 300px;
+    background-image: url('img/아침의나라22.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cc {
+
+    width: 100%;
+    height: 100%;
+    border: 3px solid white;
+    border-radius: 4px;
+
+}
+
+.cc-1{
+    position: absolute;
+    top: 100px;
+
+}
+
+
+
+
+.aaa-4{
+    padding: 136px 300px 100px 300px;
+    background-image: url('img/아침의나라1.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.dd{
+
+    width: 100%;
+    height: 100%;
+    border: 3px solid white;
+    border-radius: 4px;
+
+}
+
+
+
+.aaa-5{
+    padding: 136px 300px 100px 300px;
+    background-image: url('img/bg-남포항.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ee{
+
+    width: 100%;
+    height: 100%;
+    border: 3px solid white;
+    border-radius: 4px;
+
+}
