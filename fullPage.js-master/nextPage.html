@@ -120,10 +120,13 @@
 
             </div>
 
-            <div class="section aaa-3">
+            <div class="section aaa-3" id="section aaa-3">
 
-                <div class="cc">
+                <div class="cc" id="cc">
+                    <img class="content-image" src="img/매구-메인.png" alt="">
+                    
                     <div class="cc-1">
+                        
 
                     </div>
 
@@ -155,7 +158,6 @@
         <!-- <div class="section">
             <div class="slide">
                 <div class="box">
-
                 </div>
             </div>
             <div class="slide"> Slide 2 </div>
@@ -202,21 +204,21 @@
 
 
 
-        // const bb1TriggerMargin = -800;
-        // const bb1ElementList = document.querySelectorAll('.bb1');
+        const ccTriggerMargin = 0;
+        const ccElementList = document.querySelectorAll('.cc');
 
-        // const bb1Func = function () {
-        //     for (const element of bb1ElementList) {
-        //         if (!element.classList.contains('bb2')) {
-        //             if (window.innerHeight > element.getBoundingClientRect().top + bb1TriggerMargin) {
-        //                 element.classList.add('bb2');
-        //             }
-        //         }
-        //     }
-        // }
+        const ccFunc = function () {
+            for (const element of ccElementList) {
+                if (!element.classList.contains('ccccc')) {
+                    if (window.innerHeight > element.getBoundingClientRect().top - ccTriggerMargin) {
+                        element.classList.add('ccccc');
+                    }
+                }
+            }
+        }
 
-        // window.addEventListener('load', bb1Func);
-        // window.addEventListener('scroll', bb1Func);
+        window.addEventListener('load', ccFunc);
+        window.addEventListener('scroll', ccFunc);
 
 
 

@@ -109,7 +109,7 @@
     bottom: 6.5%;
     width: 40%;
     height: 30%;
-    
+
     
 
 }
@@ -160,7 +160,7 @@
 
 .imgbb{
     position: absolute;
-    left: 48%;
+    left: 44%;
     width: 100%;
     height: 100%;
     display: block;
@@ -233,8 +233,8 @@
 
 
 .aaa-3{
-    padding: 136px 300px 100px 300px;
-    background-image: url('img/아침의나라22.jpg');
+    padding: 136px 0px 100px 0px;
+    background-image: url(img/매구-2bg.png);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -242,18 +242,35 @@
 
 
 .cc {
+    
+    width: 55vw;
+    height: 86vh;
+    overflow: hidden;
+    opacity: 0;
+    transition: 1s;
 
-    width: 100%;
-    height: 100%;
-    border: 3px solid white;
-    border-radius: 4px;
+
+}
+
+.aaa-3:hover .cc{
+    opacity: 1;
+}
+
+.ccccc{
+    opacity: 1;
+    transform: none;
 
 }
 
 .cc-1{
-    position: absolute;
-    top: 100px;
 
+}
+
+.content-image{
+ transition: 5s;
+ 
+
+    
 }
 
 
